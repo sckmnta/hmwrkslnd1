@@ -27,7 +27,6 @@ public class  hmwrkslnd1 {
         $(byText("Show 2 more pages…")).scrollTo().click();
         $(".wiki-pages-box").shouldHave(text("SoftAssertions"));
         ///open soft assertions page
-        //$("#wiki-pages-box").$(ByText("SoftAssertions")).click();
         $("#wiki-pages-box").$(byText("SoftAssertions")).click();
 
 
